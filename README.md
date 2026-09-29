@@ -52,10 +52,7 @@ et assistants IA qui travaillent vraiment pour vous.
 
 <div align="center">
 
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ngoujon&theme=transparent" alt="Stats GitHub" />
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ngoujon&theme=transparent" alt="Langages les plus utilisés" />
-
-<img src="https://streak-stats.demolab.com/?user=ngoujon&theme=transparent&hide_border=true&locale=fr" alt="Série de contributions" />
+<img src="assets/stats.svg" alt="Chiffres clés du profil GitHub" width="100%" />
 
 </div>
 
