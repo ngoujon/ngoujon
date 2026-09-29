@@ -1,10 +1,10 @@
-// Génère assets/stats.svg : 4 KPI essentiels du profil, en thème clair et sombre.
+// Generates assets/stats.svg: 4 key profile KPIs, in light and dark themes.
 // Usage : GITHUB_TOKEN=... node scripts/stats.mjs
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LOGIN = "ngoujon";
 const token = process.env.GITHUB_TOKEN;
-if (!token) throw new Error("GITHUB_TOKEN manquant");
+if (!token) throw new Error("GITHUB_TOKEN is missing");
 
 const query = `{
   user(login: "${LOGIN}") {
@@ -26,18 +26,18 @@ const { data, errors } = await res.json();
 if (errors) throw new Error(JSON.stringify(errors));
 const { user } = data;
 
-// Contributions et série en cours
+// Contributions and current streak
 const calendar = user.contributionsCollection.contributionCalendar;
 const days = calendar.weeks.flatMap((w) => w.contributionDays);
 const activeDays = days.filter((d) => d.contributionCount > 0).length;
 let streak = 0;
-// Aujourd'hui peut encore être vide : on ne casse la série qu'à partir d'hier.
+// Today may still be empty: only break the streak from yesterday on.
 for (let i = days.length - 1; i >= 0; i--) {
   if (days[i].contributionCount > 0) streak++;
   else if (i !== days.length - 1) break;
 }
 
-// Langage principal, pondéré par le volume de code
+// Top language, weighted by code size
 const langs = {};
 for (const repo of user.repositories.nodes)
   for (const { size, node } of repo.languages.edges) {
@@ -48,12 +48,12 @@ const totalSize = Object.values(langs).reduce((a, l) => a + l.size, 0);
 const [topName, top] = Object.entries(langs).sort((a, b) => b[1].size - a[1].size)[0];
 const topShare = Math.round((top.size / totalSize) * 100);
 
-const fmt = (n) => n.toLocaleString("fr-FR").replace(/ | /g, " ");
+const fmt = (n) => n.toLocaleString("en-US").replace(/ | /g, " ");
 const kpis = [
-  { value: fmt(calendar.totalContributions), label: "contributions", sub: "sur 12 mois" },
-  { value: `${streak} j`, label: "série en cours", sub: "jours d'affilée" },
-  { value: fmt(activeDays), label: "jours actifs", sub: "sur 12 mois" },
-  { value: topName, label: "langage principal", sub: `${topShare} % du code`, dot: top.color },
+  { value: fmt(calendar.totalContributions), label: "contributions", sub: "last 12 months" },
+  { value: `${streak} d`, label: "current streak", sub: "days in a row" },
+  { value: fmt(activeDays), label: "active days", sub: "last 12 months" },
+  { value: topName, label: "top language", sub: `${topShare}% of code`, dot: top.color },
 ];
 
 const W = 860, H = 120, GAP = 12, TILE = (W - GAP * 3) / 4;
