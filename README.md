@@ -53,16 +53,6 @@ and AI assistants that actually get work done.
 
 ---
 
-## 📊 At a glance
-
-<div align="center">
-
-<img src="assets/stats.svg" alt="Key GitHub profile stats" width="100%" />
-
-</div>
-
----
-
 <div align="center">
 
 💬 **Have a project, a role or a question?**
