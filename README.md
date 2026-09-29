@@ -15,8 +15,6 @@ and AI assistants that actually get work done.
 
 <a href="https://www.linkedin.com/in/ngoujon/"><img src="assets/open-to-work.svg" alt="Open to work — freelance or full-time, based in Lyon, open to relocation" width="100%" /></a>
 
-<p align="center">Let's talk on <a href="https://www.linkedin.com/in/ngoujon/">LinkedIn</a> or at <a href="mailto:nicolas.goujon18@gmail.com">nicolas.goujon18@gmail.com</a>.</p>
-
 ---
 
 ## 🧰 Tech stack
