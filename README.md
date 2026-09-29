@@ -52,8 +52,10 @@ et assistants IA qui travaillent vraiment pour vous.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ngoujon&show_icons=true&hide_border=true&count_private=true&theme=transparent" alt="Stats GitHub" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ngoujon&layout=compact&hide_border=true&theme=transparent" alt="Langages les plus utilisés" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ngoujon&theme=transparent" alt="Stats GitHub" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ngoujon&theme=transparent" alt="Langages les plus utilisés" />
+
+<img src="https://streak-stats.demolab.com/?user=ngoujon&theme=transparent&hide_border=true&locale=fr" alt="Série de contributions" />
 
 </div>
 
