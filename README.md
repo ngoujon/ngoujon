@@ -13,7 +13,7 @@ and AI assistants that actually get work done.
 
 </div>
 
-<a href="https://www.linkedin.com/in/ngoujon/"><img src="assets/open-to-work.svg" alt="Open to work — freelance or full-time, based in Lyon, open to relocation" width="100%" /></a>
+<img src="assets/open-to-work.svg" alt="Open to work — freelance or full-time, based in Lyon, open to relocation. Let's talk on LinkedIn or at nicolas.goujon18@gmail.com" width="100%" />
 
 ---
 
