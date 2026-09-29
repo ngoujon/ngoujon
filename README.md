@@ -13,11 +13,9 @@ and AI assistants that actually get work done.
 
 </div>
 
-> ### 🟢 Open to work
->
-> I'm looking for my next opportunity, **freelance or full-time**.
-> Based in **Lyon 📍** and **open to relocation**.
-> Let's talk on [LinkedIn](https://www.linkedin.com/in/ngoujon/) or at [nicolas.goujon18@gmail.com](mailto:nicolas.goujon18@gmail.com).
+<a href="https://www.linkedin.com/in/ngoujon/"><img src="assets/open-to-work.svg" alt="Open to work — freelance or full-time, based in Lyon, open to relocation" width="100%" /></a>
+
+<p align="center">Let's talk on <a href="https://www.linkedin.com/in/ngoujon/">LinkedIn</a> or at <a href="mailto:nicolas.goujon18@gmail.com">nicolas.goujon18@gmail.com</a>.</p>
 
 ---
 
