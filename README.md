@@ -34,6 +34,7 @@ and AI assistants that actually get work done.
 ### 🤖 AI & assistants
 
 - **[Docverse](https://github.com/ngoujon/docverse)** — Sovereign RAG: chat with your own documents (PDFs, scans, audio, web pages…) on a fully European pipeline — hosted on OVHcloud, powered by Mistral AI, with local Whisper transcription.
+- **[Vokso](https://github.com/ngoujon/vokso)** — Turns a one-sentence topic (typed or spoken) into a full podcast episode: script, cover art and voice, generated in minutes. Free, Laravel + React/TypeScript, powered by Mistral AI and hosted in Europe ([vokso.fr](https://vokso.fr)).
 - **[Assistant OpenSpace](https://github.com/ngoujon/assistant-openspace)** — A macOS app that spins up a *virtual team* (orchestrator, department heads, specialists) of Claude subagents to deliver a single Markdown document.
 - **[Assistant Todoist](https://github.com/ngoujon/assistant-todoist)** — A conversational macOS assistant wired to Todoist through MCP to plan your tasks.
 
