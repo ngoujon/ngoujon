@@ -13,8 +13,9 @@ and AI assistants that actually get work done.
 
 </div>
 
-> [!TIP]
-> **🟢 Open to work** — I'm looking for my next opportunity, **freelance or full-time**.
+> ### 🟢 Open to work
+>
+> I'm looking for my next opportunity, **freelance or full-time**.
 > Based in **Lyon 📍** and **open to relocation**.
 > Let's talk on [LinkedIn](https://www.linkedin.com/in/ngoujon/) or at [nicolas.goujon18@gmail.com](mailto:nicolas.goujon18@gmail.com).
 
